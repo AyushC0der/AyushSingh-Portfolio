@@ -1,13 +1,13 @@
 html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden; /* Prevents unnecessary scrolling */
+    overflow: hidden;
 }
 
 .snap-container {
     height: 100vh;
-    overflow-y: auto; /* Allows vertical scrolling */
-    scroll-snap-type: y mandatory; /* Snaps sections into view */
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
 }
 
 .snap-section {
@@ -16,8 +16,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem; /* Adds space inside the sections */
-    box-sizing: border-box; /* Ensures padding is included in the height/width */
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 header, footer {
@@ -35,7 +35,7 @@ footer {
 }
 
 .content {
-    max-width: 1000px; /* Keeps content manageable on larger screens */
-    width: 90%; /* Makes it responsive on all screens */
+    max-width: 1000px;
+    width: 90%;
     margin: auto;
 }
