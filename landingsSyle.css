@@ -60,21 +60,21 @@
 
 .project-container {
     display: flex;
-    justify-content: space-between; /* You can also try 'center' or 'flex-start' */
-    gap: 10px; /* Optional: adds space between spans */
-    width: 100%; /* Ensure the container takes the full width */
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
     margin-top: 20px;
 }
 
 .project-container span {
-    display: flex; /* Make spans flexible to fit content properly */
-    justify-content: center; /* Center the text inside spans */
-    align-items: center; /* Vertically align text */
-    flex: 1; /* Distributes the spans evenly */
-    padding: 10px; /* Optional: adds padding inside the spans */
-    background-color: #f0f0f0; /* Optional: to visualize the spans */
-    border-radius: 5px; /* Optional: rounds the corners */
-    text-align: center; /* Centers text inside spans */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
 }
 
 
