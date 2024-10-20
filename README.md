@@ -1,4 +1,4 @@
 # portfolio
 
-Hi this is the portfolio for Me Ayush Singh
+Hi this is the portfolio of Me Ayush Singh
 cheers 🥂
