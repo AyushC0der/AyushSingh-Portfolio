@@ -1,0 +1,101 @@
+
+#homePg {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#homePg h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+#homePg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+
+
+#aboutPg {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+#aboutPg h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#aboutPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+#projectPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between; /* You can also try 'center' or 'flex-start' */
+    gap: 10px; /* Optional: adds space between spans */
+    width: 100%; /* Ensure the container takes the full width */
+    margin-top: 20px;
+}
+
+.project-container span {
+    display: flex; /* Make spans flexible to fit content properly */
+    justify-content: center; /* Center the text inside spans */
+    align-items: center; /* Vertically align text */
+    flex: 1; /* Distributes the spans evenly */
+    padding: 10px; /* Optional: adds padding inside the spans */
+    background-color: #f0f0f0; /* Optional: to visualize the spans */
+    border-radius: 5px; /* Optional: rounds the corners */
+    text-align: center; /* Centers text inside spans */
+}
+
+
+#contactPg {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+#contactPg h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#contactPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
